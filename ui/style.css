@@ -1,0 +1,173 @@
+@import url(https://fonts.googleapis.com/css?family=Quattrocento+Sans);
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  z-index: 9999;
+}
+
+.loading-text {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -7.5px;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+  font-size: 40px;
+}
+.loading-text span {
+  display: inline-block;
+  margin: 0 5px;
+  color: #fff;
+  font-family: "Quattrocento Sans", sans-serif;
+}
+.loading-text span:nth-child(1) {
+  filter: blur(0px);
+  -webkit-animation: blur-text 1.5s 0s infinite linear alternate;
+          animation: blur-text 1.5s 0s infinite linear alternate;
+}
+.loading-text span:nth-child(2) {
+  filter: blur(0px);
+  -webkit-animation: blur-text 1.5s 0.2s infinite linear alternate;
+          animation: blur-text 1.5s 0.2s infinite linear alternate;
+}
+.loading-text span:nth-child(3) {
+  filter: blur(0px);
+  -webkit-animation: blur-text 1.5s 0.4s infinite linear alternate;
+          animation: blur-text 1.5s 0.4s infinite linear alternate;
+}
+.loading-text span:nth-child(4) {
+  filter: blur(0px);
+  -webkit-animation: blur-text 1.5s 0.6s infinite linear alternate;
+          animation: blur-text 1.5s 0.6s infinite linear alternate;
+}
+.loading-text span:nth-child(5) {
+  filter: blur(0px);
+  -webkit-animation: blur-text 1.5s 0.8s infinite linear alternate;
+          animation: blur-text 1.5s 0.8s infinite linear alternate;
+}
+.loading-text span:nth-child(6) {
+  filter: blur(0px);
+  -webkit-animation: blur-text 1.5s 1s infinite linear alternate;
+          animation: blur-text 1.5s 1s infinite linear alternate;
+}
+.loading-text span:nth-child(7) {
+  filter: blur(0px);
+  -webkit-animation: blur-text 1.5s 1.2s infinite linear alternate;
+          animation: blur-text 1.5s 1.2s infinite linear alternate;
+}
+
+@-webkit-keyframes blur-text {
+  0% {
+    filter: blur(0px);
+  }
+  100% {
+    filter: blur(4px);
+  }
+}
+
+@keyframes blur-text {
+  0% {
+    filter: blur(0px);
+  }
+  100% {
+    filter: blur(4px);
+  }
+}
+
+
+/* From uiverse.io by @mrhyddenn */
+.progress-loader {
+  top: 100%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 1040px;
+  left: 159px;
+}
+
+.progress-loader {
+  width: 150px;
+  background: rgba(236, 236, 238, 0.253);
+  height: 3px;
+  border-radius: 7px;
+}
+
+.progress {
+  content: '';
+  width: 1px;
+  height: 3px;
+  border-radius: 7px;
+  background: rgb(255, 255, 255);
+  transition: 0.5s;
+  animation: loading1274 2s ease infinite;
+}
+
+@keyframes loading1274 {
+  0% {
+    width: 0%;
+  }
+
+  10% {
+    width: 10%;
+  }
+
+  50% {
+    width: 40%;
+  }
+
+  60% {
+    width: 60%;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+
+
+
+
+/* From uiverse.io by @Giuxpro */
+.card {
+  width: 300px;
+  height: 94px;
+  background: rgba(6, 6, 6, 0.738);
+  transition: all 300ms;
+  position: relative;
+  border-radius: 12px;
+  top: 960px;
+  left: 15px;
+ }
+ 
+ .card:hover {
+  opacity: 0.8;
+  transform: scale(1.07);
+ }
+ 
+ 
+ .punkts {
+  color: white;
+  font-family: 'Bebas Neue', cursive;
+  position: relative;
+  left: 30px;
+  top: 875px;
+ }
+
+ .teksts {
+  color: white;
+  font-family: 'Bebas Neue', cursive;
+  position: relative;
+  left: 50px;
+  top: 899px;
+  font-size: 21px;
+ }
